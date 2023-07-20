@@ -42,16 +42,21 @@
 
 //Problem 5
 
-function caught_speeding(speed, is_birthday){
-    if (is_birthday === 9){
-        console.log(speed -= 5)
-    }else if(speed <= 60){
-        console.log(0);
-    }else if(60<speed<=80){
-        console.log(1);
-    }else if (speed>=81){
-        console.log(2);
-    }
-}
+// function caught_speeding(speed, is_birthday){
+//     if (is_birthday === 9){
+//         console.log(speed -= 5)
+//     }else if(speed <= 60){
+//         console.log(0);
+//     }else if(60<speed<=80){
+//         console.log(1);
+//     }else if (speed>=81){
+//         console.log(2);
+//     }
+// }
 
-caught_speeding(155,9)
+// caught_speeding(155,9)
+
+//Problem 6
+function makebricks(small,big,goal){
+    return goal
+}
