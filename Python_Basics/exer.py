@@ -20,3 +20,12 @@ print(d3['k1'][0]['nest_key'][1][0])
 age = 4
 name = "sammy"
 print("hello my dog's name is {b} and he is {a} years old".format(a=age, b=name))
+
+class Solution:
+    def removeElement(self, nums: List[int], val: int) -> int:
+        index = 0
+        for i in range(len(nums)):
+            if nums[i] != val:
+                nums[index] = nums[i]
+                index += 1
+        return index
